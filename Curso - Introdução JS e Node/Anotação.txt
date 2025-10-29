@@ -1,0 +1,2 @@
+JavaScript é uma linguagem interpretada (não compilada), de alto nivel, orientada a objetos, 
+com tipagem dinâmica fracamente tipada e que roda do lado do cliente (não do servidor)

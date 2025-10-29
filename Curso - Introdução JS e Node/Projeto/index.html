@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Projeto base</title>
+    <!-- <script src="js/script.js" async></script> async carrega o html e o js ao mesmo tempo-->
+    <script src="js/script.js" defer></script> <!-- defer carrega o js depois do html -->
+</head>
+<body>
+
+    <header>
+
+        <a href="index.html" class="logo">
+            <img src="img/logo.svg" alt="Logo">
+            <h3>ConstruDecor</h3>
+        </a>
+
+        <nav>
+            <div class="topo">
+                <h3>Menu</h3>
+                <button>[ x ]</button>
+            </div>
+            <a href="">Início</a>
+            <a href="">Quem somos</a>
+            <a href="">Projetos</a>
+            <a href="">Contato</a>
+            <a href="" class="botao" id="btnConstuir">Construa agora</a>
+            <p class="textorodape">© 2025 ConstruDecor. Todos os direitos reservados.</p>
+        </nav>
+
+        <button class="botaoMenu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+
+    </header>
+
+    <section class="banner">
+        <img src="img/foto.jpg" alt="Foto">
+
+        <div class="textos">
+            <h1 class="titulo">Construa conosco</h1>
+            <p id="desc">Oferecemos projetos construtivos, da fundação ao acabamento.</p>
+            <p>Consulte <a href="">nossos especialistas</a> e desubra como podemos tornar seu sonho em realidade!</p>
+        </div>
+
+    </section>
+
+    <div class="termos">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum est tempore quo neque explicabo cumque modi esse amet, praesentium delectus reprehenderit, vitae impedit velit nostrum totam placeat quisquam quas. Similique.</p>
+    </div>
+
+    <main class="pagInicio">
+
+        <form class="formContato" action="" method="post">
+
+            <h1 class="titulo">Solicite seu orçamento</h1>
+
+            <p class="comp">Estamos aqui para construir seu sonho!</p>
+            <p class="comp">Por favor, preencha os campos a seguir e solicite um orçamento conosco:</p>
+
+            <section class="campos">
+
+                <div class="labelInput">
+                    <label for="nome" class="obrigatorio">Nome completo:</label>
+                    <input type="text" name="nome" id="nome" autocomplete="name" placeholder="Por favor, informe seu nome completo..." required>
+                </div>
+
+                <div class="labelInput">
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" name="empresa" id="empresa" autocomplete="organization" placeholder="Por favor, informe o nome de sua empresa (opcional)..." required>
+                </div>
+
+                <div class="labelInput">
+                    <label for="email" class="obrigatorio">E-mail:</label>
+                    <input type="email" name="email" id="email" autocomplete="email" placeholder="Por favor, informe seu e-mail..." required>
+                </div>
+
+                <div class="labelInput">
+                    <label for="telefone" class="obrigatorio">Telefone/WhatsApp:</label>
+                    <input type="tel" name="telefone" id="telefone" autocomplete="tel" placeholder="Por favor, informe seu telefone com DDD..." required>
+                </div>
+
+
+            </section>
+
+            <div class="labelInput">
+                <label for="mensagem" class="obrigatorio">Descrição:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Por favor, descreva em detalhes como imagina sua nova casa..." required></textarea>
+            </div>
+
+            <div class="filaBotoes">
+                <input class="botao" type="submit" value="Enviar proposta">
+            </div>
+
+        </form>
+        
+        <p class="textoPortfolio">Quer conhecer construções incríveis? Acesse agora mesmo nosso <a href="">portfólio de projetos</a>!</p>
+
+    </main>
+
+    <a class="logowp" href="">
+        <img src="img/logowp.svg" alt="Logo">
+    </a>
+
+    <footer>
+        <h3>ConstruDecor</h3>
+        <nav>
+            <a href="">Início</a>
+            <a href="">Quem somos</a>
+            <a href="">Projetos</a>
+            <a href="">Contato</a>
+            <a href="">Construa agora</a>
+        </nav>
+        <p id="creditos">© 2025 ConstruDecor. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
