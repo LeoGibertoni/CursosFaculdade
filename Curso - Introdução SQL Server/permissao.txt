@@ -1,0 +1,4 @@
+GRANT CREATE TABLE TO LEONARDOG; -- Atribui permissão para criar tabelas
+REVOKE CREATE TABLE TO LEONARDOG; -- Retira permissão de create tabelas
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON SCHEMA ::financeiro TO LEONARDOG;

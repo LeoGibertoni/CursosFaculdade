@@ -1,0 +1,12 @@
+INSERT INTO FINANCEIRO_DADOS (NOME, IDADE, EMAIL, TELEFONE)
+VALUES 
+('Leonardo', 20, 'gibertonileo@gmail.com', '16997946161'),
+('Mariana', 28, 'mariana.souza@email.com', '11987654321'),
+('Carlos', 35, 'carlos.lima@email.com', '21999887766'),
+('Fernanda', 22, 'fernanda.melo@email.com', '11911223344'),
+('João', 40, 'joao.silva@email.com', '31988776655'),
+('Patrícia', 31, 'patricia.alves@email.com', '11933445566'),
+('Rafael', 27, 'rafael.costa@email.com', '21977665544'),
+('Beatriz', 24, 'beatriz.oliveira@email.com', '11922334455'),
+('Lucas', 30, 'lucas.pereira@email.com', '11944556677'),
+('Aline', 26, 'aline.martins@email.com', '11955667788');
